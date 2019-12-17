@@ -1,0 +1,40 @@
+h1 {
+  font-size: 42px !important;
+}
+
+h2 {
+  font-size: 32px !important;
+}
+
+h3 {
+  font-size: 26px !important;
+}
+
+h4 {
+  font-size: 22px !important;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 48px !important;
+  }
+
+  h2 {
+    font-size: 40px !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+  }
+
+  h4 {
+    font-size: 28px !important;
+  }
+}
+
+.dynamic-heading {
+  font-weight: bold;
+  border-bottom: 3px solid;
+  margin: 0 auto;
+  max-width: 992px;
+}

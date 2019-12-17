@@ -1,0 +1,37 @@
+.component--skills-container {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.component--skills-container .skills-progress-bar-wrapper {
+  margin: 25px auto;
+  max-width: 992px;
+}
+
+.component--skills-container .skills-progress-bar-wrapper p {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  bottom: -12px;
+  right: -2px;
+}
+
+.mdl-progress {
+  height: 10px !important;
+  width: auto !important;
+  max-width: 100%;
+}
+
+.mdl-progress > .progressbar {
+  background: #fdc830;
+  background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+  background: linear-gradient(to right, #f37335, #fdc830);
+  border-radius: 5px;
+}
+
+.mdl-progress > .bufferbar {
+  background-image: none !important;
+  background-color: #333 !important;
+  border-radius: 5px;
+}

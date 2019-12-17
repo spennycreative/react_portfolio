@@ -1,0 +1,39 @@
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 25px;
+  border: 2px solid;
+  border-radius: 2px;
+  transition: all 0.25s ease-out;
+}
+
+.btn:first-child {
+  margin: 0 5px 0 0;
+}
+
+.btn:last-child {
+  margin: 0 0 0 5px;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 12px -3px rgba(0, 0, 0, 0.675);
+}
+
+.btn:focus {
+  opacity: 0.6;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.btn-secondary {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 0 3px 15px -3px rgba(0, 0, 0, 0.75);
+}

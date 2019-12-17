@@ -1,0 +1,32 @@
+.container {
+  max-width: 768px;
+  margin: auto;
+}
+
+.body-container {
+  max-width: 992px;
+  margin: auto;
+}
+
+.component {
+}
+
+.sm-body-component {
+  margin: 0 auto;
+  padding: 10px 2.5%;
+}
+
+.body-component {
+  margin: 0 auto;
+  padding: 20px 2.5%;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-body-component {
+    margin: 0 auto;
+    padding: 20px 2.5%;
+  }
+  .body-component {
+    padding: 40px 0;
+  }
+}
